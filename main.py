@@ -26,4 +26,4 @@ async def read_item(user_id: int):
     return {"user_id": user_id}
 
 if __name__ == "__main__":
-    uvicorn.run(app, host="127.0.0.1", port=8001)
+    uvicorn.run(app, host="127.0.0.1", port=8000)
